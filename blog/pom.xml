@@ -53,13 +53,19 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.62</version>
         </dependency>
-        <!--        h2数据库-->
-        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+<!--        &lt;!&ndash;        h2数据库&ndash;&gt;-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.h2database/h2 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.h2database</groupId>-->
+<!--            <artifactId>h2</artifactId>-->
+<!--            <version>1.4.200</version>-->
+<!--        </dependency>-->
+        <!--mysql-->
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.4.200</version>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
 <!--        集成mybatis-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
